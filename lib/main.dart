@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:you_tube_lesson/second_lesson/container.dart';
+import 'package:you_tube_lesson/3-ls%20-%20Column/column_1.dart';
+import '2-ls - Container/container.dart';
+import '3-ls - Column/column_part_2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const SecondLesson(),
+      home: const ColumnPart2(),
     );
   }
 }
